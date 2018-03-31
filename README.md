@@ -3,6 +3,33 @@
 
 Codebook for Flask Web Design - 2nd Edition.
 
+Setup
+-----
+
+1. Install python 3.6
+2. Install pip3
+
+Dependencies
+------------
+
+1. install Flask
+> $ pip3 install flask
+
+2. Install flask-bootstrap
+> $ pip3 install flask-bootstrap
+
+3. Install flask-moment
+> $ pip3 install flask-moment
+
+4. Install flask-wtf
+> $ pip install flask-wtf
+
+5. Install flask-sqlalchemy
+> $ pip3 install flask-sqlalchemy
+
+6. Install flask-migrate
+> $ pip3 install flask-migrate
+
 ### Update: 201830Ma+65
 =======================
 
