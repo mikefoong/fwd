@@ -14,7 +14,7 @@ app.config['SECRET_KEY'] = 'I am Human'
 app.config['DEBUG'] = True
 
 class NameForm(FlaskForm):
-    name = StringField('What is your name?', validators=[DataRequired()])
+    name = StringField('Tell me your name?', validators=[DataRequired()])
     submit = SubmitField('Submit')
 
 @app.route('/', methods=['GET', 'POST'])
