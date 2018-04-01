@@ -8,6 +8,14 @@ Setup
 
 1. Install python 3.6
 2. Install pip3
+3. Create environment variables
+* define FLASK_APP (hello.py in this case)
+> export FLASK_APP=hello.py
+
+* set FLASK_DEBUG to true
+> export FLASK_DEBUG=1
+
+
 
 Dependencies
 ------------
@@ -68,4 +76,10 @@ Using an external email or mail transport agent (SMTP)
 1. Code for Chapter 6 is in ch06 dir
 2. Install flask-mail
 3. Added Mail server configuration in app.config
-4. mail = Mail(app) app context needs to be after config  
+4. mail = Mail(app) app context needs to be after config
+5. Integrating flask_mail in the app
+6. Set environment variables to ensure that it is not captured in the code
+* MAIL_USERNAME
+* MAIL_PASSWORD
+* FLASKY_ADMIN
+7. Create Threads to enable async email sending
