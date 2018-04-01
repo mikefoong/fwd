@@ -30,8 +30,11 @@ Dependencies
 6. Install flask-migrate
 > $ pip3 install flask-migrate
 
+7. Install flask-mail
+> $ pip3 install flask-mail
+
 ### Update: 201830Ma+65
-=======================
+-----------------------
 
 Chapter 5 - Databases
 Database Framework using Flask-SQLAlchemy. Integration with flask.
@@ -55,4 +58,14 @@ Database Framework using Flask-SQLAlchemy. Integration with flask.
 > $ pip install flask-migrate
 
 15. Create a db migration directory
-16.   
+
+### Update: 201801Ap+65
+-----------------------
+
+Chapter 6 - Email
+Using an external email or mail transport agent (SMTP)
+
+1. Code for Chapter 6 is in ch06 dir
+2. Install flask-mail
+3. Added Mail server configuration in app.config
+4. mail = Mail(app) app context needs to be after config  
