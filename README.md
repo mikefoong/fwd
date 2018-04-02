@@ -10,12 +10,26 @@ Setup
 2. Install pip3
 3. Create environment variables
 * define FLASK_APP (hello.py in this case)
-> export FLASK_APP=hello.py
+> $ export FLASK_APP=hello.py
 
 * set FLASK_DEBUG to true
-> export FLASK_DEBUG=1
+> $ export FLASK_DEBUG=1
 
+4. Create a virtual environment
+> $ python3 -m venv venv
 
+* If venv isn't installed. Install it with apt-get
+> $ sudo apt-get install python3-venv
+
+* if venv isn't working. Try using virtualenv
+** Installing virtualenv
+> $ sudo pip3 install virtualenv
+
+** Creating a virtual environment using python3
+> $ virtualenv -p python3 venv
+
+** Activating the virtual environment
+> $ source venv/bin/activate
 
 Dependencies
 ------------
